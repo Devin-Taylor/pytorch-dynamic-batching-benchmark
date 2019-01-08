@@ -4,13 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = {file = "https://download.pytorch.org/whl/cpu/torch-1.0.0-cp36-cp36m-linux_x86_64.whl"}
 torchvision = "*"
 torchtext = "*"
 numpy = "*"
-torchfold-1-0 = {editable = true,git = "https://github.com/Devin-Taylor/pytorch-tools.git",ref = "pytorch_1.0.0"}
 pandas = "*"
 matplotlib = "*"
+torchfold-1-0 = {editable = true,git = "https://github.com/Devin-Taylor/pytorch-tools.git",ref = "pytorch_1.0.0"}
+torch = {file = "https://download.pytorch.org/whl/cpu/torch-1.0.0-cp36-cp36m-linux_x86_64.whl"}
 
 [dev-packages]
 
